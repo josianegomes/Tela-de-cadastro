@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlEsquerdo = new System.Windows.Forms.Panel();
             this.lblOdontologia = new System.Windows.Forms.Label();
             this.lblBemVindo = new System.Windows.Forms.Label();
             this.lblCpf = new System.Windows.Forms.Label();
@@ -62,20 +62,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.pnlEsquerdo.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlEsquerdo
             // 
-            this.panel1.Controls.Add(this.lblOdontologia);
-            this.panel1.Controls.Add(this.lblBemVindo);
-            this.panel1.Location = new System.Drawing.Point(1, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(206, 490);
-            this.panel1.TabIndex = 0;
+            this.pnlEsquerdo.Controls.Add(this.lblOdontologia);
+            this.pnlEsquerdo.Controls.Add(this.lblBemVindo);
+            this.pnlEsquerdo.Location = new System.Drawing.Point(1, 2);
+            this.pnlEsquerdo.Name = "pnlEsquerdo";
+            this.pnlEsquerdo.Size = new System.Drawing.Size(206, 490);
+            this.pnlEsquerdo.TabIndex = 0;
             // 
             // lblOdontologia
             // 
@@ -398,13 +398,13 @@
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblRg);
             this.Controls.Add(this.lblCpf);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlEsquerdo);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "frmCadastroPaciente";
             this.Text = "Cadastro";
             this.Load += new System.EventHandler(this.frmCadastroPessoa_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlEsquerdo.ResumeLayout(false);
+            this.pnlEsquerdo.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -418,7 +418,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlEsquerdo;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblRg;
         private System.Windows.Forms.Button btnBuscar;
